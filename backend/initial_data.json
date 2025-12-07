@@ -1,0 +1,150 @@
+[
+  {
+    "model": "api.herramienta",
+    "pk": 1,
+    "fields": {
+      "codigo": "HR-001",
+      "nombre": "Taladro inalámbrico Dewalt",
+      "categoria": "Herramientas Eléctricas",
+      "ubicacion": "Bodega A, Estante 1",
+      "estado": "disponible",
+      "created_at": "2025-12-01T09:00:00Z",
+      "updated_at": "2025-12-01T09:00:00Z"
+    }
+  },
+  {
+    "model": "api.herramienta",
+    "pk": 2,
+    "fields": {
+      "codigo": "HR-002",
+      "nombre": "Llave inglesa 24mm",
+      "categoria": "Herramientas Manuales",
+      "ubicacion": "Bodega A, Estante 2",
+      "estado": "disponible",
+      "created_at": "2025-12-01T09:15:00Z",
+      "updated_at": "2025-12-01T09:15:00Z"
+    }
+  },
+  {
+    "model": "api.herramienta",
+    "pk": 3,
+    "fields": {
+      "codigo": "HR-003",
+      "nombre": "Multímetro digital Fluke",
+      "categoria": "Equipos de Medición",
+      "ubicacion": "Bodega B, Estante 1",
+      "estado": "disponible",
+      "created_at": "2025-12-01T09:30:00Z",
+      "updated_at": "2025-12-01T09:30:00Z"
+    }
+  },
+  {
+    "model": "api.herramienta",
+    "pk": 4,
+    "fields": {
+      "codigo": "HR-004",
+      "nombre": "Sierra manual Bahco",
+      "categoria": "Herramientas Manuales",
+      "ubicacion": "Bodega B, Estante 2",
+      "estado": "disponible",
+      "created_at": "2025-12-01T09:45:00Z",
+      "updated_at": "2025-12-01T09:45:00Z"
+    }
+  },
+  {
+    "model": "api.herramienta",
+    "pk": 5,
+    "fields": {
+      "codigo": "HR-005",
+      "nombre": "Nivel de burbuja 60cm",
+      "categoria": "Equipos de Medición",
+      "ubicacion": "Bodega C, Estante 1",
+      "estado": "disponible",
+      "created_at": "2025-12-01T10:00:00Z",
+      "updated_at": "2025-12-01T10:00:00Z"
+    }
+  },
+  {
+    "model": "api.herramienta",
+    "pk": 6,
+    "fields": {
+      "codigo": "HR-006",
+      "nombre": "Juego de destornilladores",
+      "categoria": "Herramientas Manuales",
+      "ubicacion": "Bodega A, Estante 3",
+      "estado": "disponible",
+      "created_at": "2025-12-01T10:15:00Z",
+      "updated_at": "2025-12-01T10:15:00Z"
+    }
+  },
+  {
+    "model": "api.prestamo",
+    "pk": 1,
+    "fields": {
+      "numero": "PR-001",
+      "herramienta_codigo": "HR-001",
+      "responsable": "Carlos Rodríguez",
+      "fecha_salida": "2025-12-02T08:30:00Z",
+      "fecha_esperada": "2025-12-03T17:00:00Z",
+      "fecha_devolucion": null,
+      "created_at": "2025-12-02T08:30:00Z",
+      "updated_at": "2025-12-02T08:30:00Z"
+    }
+  },
+  {
+    "model": "api.prestamo",
+    "pk": 2,
+    "fields": {
+      "numero": "PR-002",
+      "herramienta_codigo": "HR-002",
+      "responsable": "Lucia García",
+      "fecha_salida": "2025-12-02T09:00:00Z",
+      "fecha_esperada": "2025-12-04T17:00:00Z",
+      "fecha_devolucion": null,
+      "created_at": "2025-12-02T09:00:00Z",
+      "updated_at": "2025-12-02T09:00:00Z"
+    }
+  },
+  {
+    "model": "api.prestamo",
+    "pk": 3,
+    "fields": {
+      "numero": "PR-003",
+      "herramienta_codigo": "HR-003",
+      "responsable": "Mateo López",
+      "fecha_salida": "2025-12-02T10:00:00Z",
+      "fecha_esperada": "2025-12-03T12:00:00Z",
+      "fecha_devolucion": "2025-12-03T11:45:00Z",
+      "created_at": "2025-12-02T10:00:00Z",
+      "updated_at": "2025-12-03T11:45:00Z"
+    }
+  },
+  {
+    "model": "api.prestamo",
+    "pk": 4,
+    "fields": {
+      "numero": "PR-004",
+      "herramienta_codigo": "HR-004",
+      "responsable": "Ana Martínez",
+      "fecha_salida": "2025-12-02T11:00:00Z",
+      "fecha_esperada": "2025-12-05T17:00:00Z",
+      "fecha_devolucion": null,
+      "created_at": "2025-12-02T11:00:00Z",
+      "updated_at": "2025-12-02T11:00:00Z"
+    }
+  },
+  {
+    "model": "api.prestamo",
+    "pk": 5,
+    "fields": {
+      "numero": "PR-005",
+      "herramienta_codigo": "HR-005",
+      "responsable": "Diego Fernández",
+      "fecha_salida": "2025-12-02T13:30:00Z",
+      "fecha_esperada": "2025-12-03T15:00:00Z",
+      "fecha_devolucion": null,
+      "created_at": "2025-12-02T13:30:00Z",
+      "updated_at": "2025-12-02T13:30:00Z"
+    }
+  }
+]
